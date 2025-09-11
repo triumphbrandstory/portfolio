@@ -1,4 +1,4 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 import {
   RxDiscordLogo,
   RxGithubLogo,
@@ -85,24 +85,6 @@ export const SKILL_DATA = [
     image: "mongodb.png",
     width: 40,
     height: 40,
-  },
-] as const;
-
-export const SOCIALS = [
-  {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
-  },
-  {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
   },
 ] as const;
 
